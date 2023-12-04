@@ -176,7 +176,7 @@ img {max-width: 100%;height: auto;}
   columns: #606060;
   font-size: 0.75rem;
 }
-/*   Media Queries are all here */
+/*   Media Queries are defined here */
 @media screen and (min-width: 768px) {
   body {margin: 0;}
   .section-all {margin-bottom: 2rem;}
