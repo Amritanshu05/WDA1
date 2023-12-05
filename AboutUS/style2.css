@@ -15,8 +15,14 @@ body {
 .container{
     margin: 20px 40px;
     color: white;
+    text-align: center;
 }
-
+.container h2,
+.container p {
+  margin-bottom: 20px; /* Adjust spacing as needed */
+  row-gap: 3rem;
+  font-size: 1.25rem;
+}
 .heading{
     font-size: 60px;
     color: white; 
@@ -137,12 +143,16 @@ body {
 
 .profiles{
     display: flex;
-    justify-content: space-around;
-    margin: 20px 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between profiles */
+    margin: 20px auto;
 }
 
 .profile{
-    flex-basis: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile .profile-img{
@@ -203,5 +213,4 @@ body {
     .profile p{
         margin: 20px 10px 80px 10px;
     }
-} 
-    
+}
