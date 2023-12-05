@@ -16,7 +16,7 @@ ul {margin: 0;padding: 0;list-style: none;}
 a {text-decoration: none;color: #101010;}
 img {max-width: 100%;height: auto;}
 /* Class CSS defined here   */
-.section {padding: 3rem 0;}
+.section {padding: 2rem 0;}
 .section-title {
   font-size: 1.25rem;
   color: #101010;
