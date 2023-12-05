@@ -1,6 +1,6 @@
-/*===== GOOGLE FONTS =====*/
+/*  GOOGLE FONTS defined here*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
-/*===== BASE =====*/
+/*BASE defined here*/
 *,
 ::before,::after {box-sizing: border-box;}
 html {scroll-behavior: smooth;}
@@ -15,7 +15,7 @@ h1,h2,p {margin: 0;}
 ul {margin: 0;padding: 0;list-style: none;}
 a {text-decoration: none;color: #101010;}
 img {max-width: 100%;height: auto;}
-/*===== CLASS CSS ===== */
+/* Class CSS defined here   */
 .section {padding: 3rem 0;}
 .section-title {
   font-size: 1.25rem;
@@ -31,7 +31,7 @@ img {max-width: 100%;height: auto;}
   text-align: center;
   margin-bottom: 1rem;
 }
-/*===== LAYOUT =====*/
+/*  LAYOUT defined here */
 .bd-grid {
   max-width: 1024px;
   display: grid;
@@ -49,7 +49,7 @@ img {max-width: 100%;height: auto;}
   z-index: 100;
   background: #FFFDEC;
 }
-/*===== NAV =====*/
+/*  NAV defined here */
 .nav {
   height: 3rem;
   display: flex;
@@ -77,7 +77,7 @@ img {max-width: 100%;height: auto;}
 /*=== Show menu ===*/
 .show {right: 0;}
 .active {color: #e55947;}
-/*===== HOME =====*/
+/*  HOME  */
 .home {background-color: #FFFDEC;}
 .home_container {height: calc(100vh - 3rem);}
 .home_data {padding-top: 6rem;}
@@ -90,7 +90,7 @@ img {max-width: 100%;height: auto;}
 }
 .home_title span {font-size: 1.5rem;}
 .home_img {position: absolute;right: 0;bottom: -600;width: 400px;}
-/*=======BUTTONS========*/
+/* BUTTONS defined here*/
 .button {
   display: inline-block;
   background-color: #e55947;
@@ -101,7 +101,7 @@ img {max-width: 100%;height: auto;}
   transition: 0.3s;
 }
 .button:hover {background-color: #d2321e;}
-/*===== COLLECTION =====*/
+/*  COLLECTION defined here */
 .collection_container {row-gap: 2rem;}
 .collection_box {
   display: flex;
@@ -123,10 +123,9 @@ img {max-width: 100%;height: auto;}
 .collection_subtitle {font-size: 1.25rem;color: #606060;}
 .collection_view {font-size: 0.75rem;color: #606060;}
 .collection_view:hover {text-decoration: underline;}
-/*===== merch PRODUCTS =====*/
+/*  merch PRODUCTS defined here */
 .merch_container {row-gap: 2rem;}
 .merch_product {transition: 0.3s;}
-/* =======iconupshiftbelow====== */
 .merch_product:hover {transform: translateY(-0.5rem);}
 .merch_box {
   position: relative;
@@ -147,33 +146,21 @@ img {max-width: 100%;height: auto;}
 .merch_data {text-align: center;}
 .merch_name {margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.938rem;}
 .merch_price {color: #606060; font-weight: 600;}
-/*===== alumni =====*/
+/*  alumni defined here */
 .alumni_bg {background: url("Alumni.webp") no-repeat center/cover; text-align: center; height :400px;}
 .alumni_data {padding: 8.5rem 0.25rem; background: rgba(0, 0, 0, 0.5); color: #fafaff;}
 .alumni_title {font-size: 1.5rem; letter-spacing: 0.2rem; text-transform: uppercase; font-weight: 600;}
 .alumni_description {margin-bottom: 1rem; letter-spacing: 0.2rem;}
-/*===== NEW ARRIVALS =====*/
-.new_container {row-gap: 2rem;}
-.new_box {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  background-color: #FFFDEC;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-}
-/* ====productredbackupbelow =====*/
-.new_box:hover {transform: translateY(-0.5rem);}
-/*===== suggestion =====*/
+/*  suggestion  defined here */
 .suggestion {text-align: center;}
 .suggestion_description {margin-bottom: 1rem;font-size: 0.75rem;color: #606060;}
 .suggestion_form {display: grid;grid-template-columns: 1fr 0.5fr;}
 .suggestion_input {outline: none;border: none;background-color: #f0f1f3;padding: 0 1rem;}
-/*===== collage =====*/
+/*  collage define here */
 .collage_container {grid-template-columns: repeat(2, 1fr);row-gap: 2rem;padding: 1.5rem 0;}
 .collage_logo {display: flex;justify-content: center;}
 .collage_logo img {width: 80px;}
-/*===== FOOTER =====*/
+/*  FOOTER defined here */
 .footer {background-color: #101010;color: #FFFDEC;}
 .footer_container {row-gap: 1.5rem;margin-bottom: 2rem;}
 .footer_title {margin-bottom: 0.5rem;}
@@ -189,7 +176,7 @@ img {max-width: 100%;height: auto;}
   columns: #606060;
   font-size: 0.75rem;
 }
-/* ===== MEDIA QUERIES=====*/
+/*   Media Queries are defined here */
 @media screen and (min-width: 768px) {
   body {margin: 0;}
   .section-all {margin-bottom: 2rem;}
