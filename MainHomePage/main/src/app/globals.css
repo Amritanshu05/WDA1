@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+body,
+html {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+#first {
+  letter-spacing: 1.5rem;
+}
+#second {
+  letter-spacing: 1.5rem;
+}
+#third {
+  letter-spacing: 1.5rem;
+}
+/* #equi{
+  height: 35rem;
+} */
+
+.alumni_bg {
+  background: url("/Alumni.webp") no-repeat center/cover;
+  text-align: center;
+  height: 400px;
+}
+.alumni_data {
+  padding: 8.5rem 0.25rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fafaff;
+}
+.alumni_title {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.alumni_description {
+  margin-bottom: 1rem;
+  letter-spacing: 0.2rem;
+}
