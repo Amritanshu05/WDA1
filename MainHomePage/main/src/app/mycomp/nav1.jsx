@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+
 
 const Nav2 = () => {
   return (
@@ -119,6 +121,11 @@ const Nav2 = () => {
             <span className="badge badge-xs badge-primary indicator-item"></span>
           </div>
         </button>
+        <div>
+            <Link href="/LoginPage" >
+            <button className="btn btn-outline btn-primary">Login</button>
+            </Link>
+          </div>
 
         <div className="drawer drawer-end bg-amber-50">
           <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />

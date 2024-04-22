@@ -19,7 +19,8 @@ const First = () => {
           </div>
           <div className="pt-8">
             <br />
-            <button className="btn btn-error text-white ">GO SHOPPING</button>
+            <button  className="btn btn-error text-white ">
+              <a href="#equi">GO SHOPPING</a></button>
           </div>
         </div>
         <div className="w-2/5 bg-amber-50 flex justify-start items-center">
