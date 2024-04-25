@@ -1,4 +1,6 @@
 import React from "react";
+// import { img1, img2 } from "./assets";
+
 
 const Payment = () => {
   return (
@@ -24,7 +26,7 @@ const Payment = () => {
               <input
                 className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                 id="recipient-name"
-                placeholder="John Doe"
+                placeholder="Mr. xyz"
                 required=""
                 type="text"
               />
@@ -39,7 +41,7 @@ const Payment = () => {
               <input
                 className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                 id="recipient-phone"
-                placeholder="+1 (123) 456-7890"
+                placeholder="+91 9876543210"
                 required=""
                 type="tel"
               />
@@ -71,7 +73,7 @@ const Payment = () => {
               <input
                 className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                 id="cardholder-name"
-                placeholder="John Doe"
+                placeholder="Mr. xyz"
                 required=""
                 type="text"
               />
@@ -98,7 +100,7 @@ const Payment = () => {
                   aria-autocomplete="none"
                   dir="ltr"
                   data-state="closed"
-                  className="flex h-10 items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-24"
+                  className="flex h-10 items-center justify-between rounded-md border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-24"
                 >
                   <select
                     id="expiration-month"
@@ -110,21 +112,6 @@ const Payment = () => {
                       </option>
                     ))}
                   </select>
-                  {/* <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    className="h-4 w-4 opacity-50"
-                    aria-hidden="true"
-                  >
-                    <path d="m6 9 6 6 6-6"></path>
-                  </svg> */}
                 </button>
                 <button
                   type="button"
@@ -134,7 +121,7 @@ const Payment = () => {
                   aria-autocomplete="none"
                   dir="ltr"
                   data-state="closed"
-                  className="flex h-10 items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-24"
+                  className="flex h-10 items-center justify-between rounded-md  border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-24"
                 >
                   <select
                     id="expiration-year"
@@ -146,21 +133,6 @@ const Payment = () => {
                       </option>
                     ))}
                   </select>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    className="h-4 w-4 opacity-50"
-                    aria-hidden="true"
-                  >
-                    <path d="m6 9 6 6 6-6"></path>
-                  </svg>
                 </button>
               </div>
             </div>
@@ -203,7 +175,7 @@ const Payment = () => {
                 aria-autocomplete="none"
                 dir="ltr"
                 data-state="closed"
-                className="flex h-10 items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full"
+                className="flex h-10 items-center justify-between rounded-md border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full"
               >
                 <select
                   id="payment-method"
@@ -213,21 +185,6 @@ const Payment = () => {
                   <option value="debit-card">Debit card</option>
                   <option value="upi">UPI</option>
                 </select>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  className="h-4 w-4 opacity-50"
-                  aria-hidden="true"
-                >
-                  <path d="m6 9 6 6 6-6"></path>
-                </svg>
               </button>
             </div>
           </div>
@@ -263,7 +220,7 @@ const Payment = () => {
             <input
               className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
               id="address-line1"
-              placeholder="123 Main St"
+              placeholder="Ahmamau, Lucknow"
               required=""
               type="text"
             />
@@ -278,7 +235,7 @@ const Payment = () => {
             <input
               className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
               id="address-line2"
-              placeholder="Apt 456"
+              placeholder="Flat 202A"
               type="text"
             />
           </div>
@@ -293,7 +250,7 @@ const Payment = () => {
               <input
                 className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                 id="city"
-                placeholder="New York"
+                placeholder="Lucknow"
                 required=""
                 type="text"
               />
@@ -308,7 +265,7 @@ const Payment = () => {
               <input
                 className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                 id="state"
-                placeholder="NY"
+                placeholder="UP"
                 required=""
                 type="text"
               />
@@ -323,7 +280,7 @@ const Payment = () => {
               <input
                 className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                 id="zip"
-                placeholder="10001"
+                placeholder="200625"
                 required=""
                 type="text"
               />
@@ -335,7 +292,23 @@ const Payment = () => {
             </p>
             <div className="flex items-center gap-4">
               <img
-                src="/placeholder.svg"
+                src="./americanexpress.png"
+                alt="QR Code"
+                width="32"
+                height="20"
+                className="h-5 w-auto"
+                style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
+              />
+              <img
+                src="./discover.png"
+                alt="QR Code"
+                width="32"
+                height="20"
+                className="h-5 w-auto"
+                style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
+              />
+              <img
+                src="./mastercard.png"
                 alt="Visa"
                 width="32"
                 height="20"
@@ -343,7 +316,7 @@ const Payment = () => {
                 style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
               />
               <img
-                src="/placeholder.svg"
+                src="./netbanking.png"
                 alt="Mastercard"
                 width="32"
                 height="20"
@@ -351,7 +324,7 @@ const Payment = () => {
                 style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
               />
               <img
-                src="/placeholder.svg"
+                src="./rupay.png"
                 alt="American Express"
                 width="32"
                 height="20"
@@ -359,32 +332,8 @@ const Payment = () => {
                 style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
               />
               <img
-                src="/placeholder.svg"
+                src="./visa.png"
                 alt="Discover"
-                width="32"
-                height="20"
-                className="h-5 w-auto"
-                style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
-              />
-              <img
-                src="/placeholder.svg"
-                alt="Diners Club"
-                width="32"
-                height="20"
-                className="h-5 w-auto"
-                style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
-              />
-              <img
-                src="/placeholder.svg"
-                alt="JCB"
-                width="32"
-                height="20"
-                className="h-5 w-auto"
-                style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
-              />
-              <img
-                src="/placeholder.svg"
-                alt="QR Code"
                 width="32"
                 height="20"
                 className="h-5 w-auto"
@@ -412,15 +361,15 @@ const Payment = () => {
             <div className="space-y-2">
               <div className="flex items-center justify-between">
                 <p className="text-base font-medium text-gray-900">Subtotal</p>
-                <p className="text-base font-medium text-gray-900">$99.00</p>
+                <p className="text-base font-medium text-gray-900">Rs.1000.00</p>
               </div>
               <div className="flex items-center justify-between">
                 <p className="text-base font-medium text-gray-900">Shipping</p>
-                <p className="text-base font-medium text-gray-900">$5.00</p>
+                <p className="text-base font-medium text-gray-900">Rs.40.00</p>
               </div>
               <div className="flex items-center justify-between">
                 <p className="text-base font-medium text-gray-900">Tax</p>
-                <p className="text-base font-medium text-gray-900">$8.92</p>
+                <p className="text-base font-medium text-gray-900">Rs117.92</p>
               </div>
             </div>
             <div
@@ -430,12 +379,12 @@ const Payment = () => {
             ></div>
             <div className="flex items-center justify-between">
               <p className="text-xl font-bold text-gray-900">Total</p>
-              <p className="text-xl font-bold text-gray-900">$112.92</p>
+              <p className="text-xl font-bold text-gray-900">Rs1157.92</p>
             </div>
           </div>
           <div className="mt-6 flex justify-center">
             <img
-              src="/placeholder.svg"
+              src="./randomQR.png"
               alt="QR Code"
               width="200"
               height="200"
