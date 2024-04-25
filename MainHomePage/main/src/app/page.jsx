@@ -1,4 +1,4 @@
- import Image from "next/image";
+import Image from "next/image";
 import Nav from "./mycomp/nav";
 import First from "./mycomp/first";
 import Second from "./mycomp/second";
@@ -6,13 +6,18 @@ import Footer from "./mycomp/footer";
 import Nav2 from "./mycomp/nav1";
 import Link from "next/link";
 
-import './globals.css';
+import "./globals.css";
 
 export default function Home() {
   return (
-<div>
+    <div>
+      <div>
+        <Link href="/payment">
+        <button className="btn btn-ghost btn-circle">hii</button>
+</Link>
+      </div>
 
-  <div>
+      {/* <div>
     <Nav2/>
   </div>
   <div>
@@ -23,7 +28,7 @@ export default function Home() {
   </div>
   <div>
     <Footer/>
-  </div>
-</div>  
+  </div> */}
+    </div>
   );
 }
