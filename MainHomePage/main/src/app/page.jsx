@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <div>
-        <Link href="/payment">
+        <Link href="/AboutUs">
         <button className="btn btn-ghost btn-circle">hii</button>
 </Link>
       </div>
