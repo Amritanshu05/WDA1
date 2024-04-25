@@ -12,12 +12,12 @@ export default function Home() {
   return (
     <div>
       <div>
-        <Link href="/AboutUs">
+        {/* <Link href="/AboutUs">
         <button className="btn btn-ghost btn-circle">hii</button>
-</Link>
+</Link> */}
       </div>
 
-      {/* <div>
+      <div>
     <Nav2/>
   </div>
   <div>
@@ -28,7 +28,7 @@ export default function Home() {
   </div>
   <div>
     <Footer/>
-  </div> */}
+  </div>
     </div>
   );
 }
