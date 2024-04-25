@@ -77,6 +77,10 @@ const Payment = () => {
               />
             </div>
           </div>
+
+
+
+
           <div className="grid grid-cols-3 gap-4">
             <div className="space-y-2">
               <label
@@ -96,7 +100,16 @@ const Payment = () => {
                   data-state="closed"
                   className="flex h-10 items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-24"
                 >
-                  <span style={{ pointerEvents: "none" }}>01</span>
+                  <select
+                    id="expiration-month"
+                    className="h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+                  >
+                    {Array.from({ length: 12 }, (_, index) => (
+                      <option key={index + 1} value={index + 1}>
+                        {index + 1}
+                      </option>
+                    ))}
+                  </select>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -123,8 +136,16 @@ const Payment = () => {
                   data-state="closed"
                   className="flex h-10 items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-24"
                 >
-                  <span style={{ pointerEvents: "none" }}>2023</span>
-                 
+                  <select
+                    id="expiration-year"
+                    className="h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+                  >
+                    {Array.from({ length: 10 }, (_, index) => (
+                      <option key={index + 2023} value={index + 2023}>
+                        {index + 2023}
+                      </option>
+                    ))}
+                  </select>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -143,6 +164,10 @@ const Payment = () => {
                 </button>
               </div>
             </div>
+
+
+
+
             <div className="space-y-2">
               <label
                 className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -158,6 +183,11 @@ const Payment = () => {
                 type="text"
               />
             </div>
+
+
+
+
+
             <div className="space-y-2">
               <label
                 className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -175,7 +205,14 @@ const Payment = () => {
                 data-state="closed"
                 className="flex h-10 items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full"
               >
-                <span style={{ pointerEvents: "none" }}>Credit card</span>
+                <select
+                  id="payment-method"
+                  className="h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+                >
+                  <option value="credit-card">Credit card</option>
+                  <option value="debit-card">Debit card</option>
+                  <option value="upi">UPI</option>
+                </select>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -194,6 +231,9 @@ const Payment = () => {
               </button>
             </div>
           </div>
+
+
+
           <div className="space-y-2">
             <label
               className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -278,7 +318,7 @@ const Payment = () => {
                 className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 for="zip"
               >
-                Zip
+                Pincode
               </label>
               <input
                 className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
@@ -405,7 +445,7 @@ const Payment = () => {
           </div>
           <div className="mt-4 text-center">
             <p className="text-base font-medium text-gray-900">
-              Scan the QR code to pay
+              OR Scan the QR code to pay
             </p>
           </div>
         </div>
@@ -415,3 +455,96 @@ const Payment = () => {
 };
 
 export default Payment;
+
+
+
+
+
+
+{/* <div className="grid grid-cols-3 gap-4">
+  <div className="space-y-2">
+    <label
+      className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      htmlFor="expiration-date"
+    >
+      Expiration date
+    </label>
+    <div className="flex items-center gap-2">
+      <select
+        id="expiration-month"
+        className="h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+      >
+        {Array.from({ length: 12 }, (_, index) => (
+          <option key={index + 1} value={index + 1}>
+            {index + 1}
+          </option>
+        ))}
+      </select>
+      <select
+        id="expiration-year"
+        className="h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+      >
+        {Array.from({ length: 10 }, (_, index) => (
+          <option key={index + 2023} value={index + 2023}>
+            {index + 2023}
+          </option>
+        ))}
+      </select>
+    </div>
+  </div>
+</div> */}
+
+
+{/* <div className="space-y-2">
+  <label
+    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+    htmlFor="payment-method"
+  >
+    Payment method
+  </label>
+  <select
+    id="payment-method"
+    className="h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+  >
+    <option value="credit-card">Credit card</option>
+    <option value="debit-card">Debit card</option>
+    <option value="upi">UPI</option>
+  </select>
+</div> */}
+
+
+
+
+// <div className="space-y-2">
+// <label
+//   className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+//   htmlFor="payment-method"
+// >
+//   Payment method
+// </label>
+// <div className="relative">
+//   <select
+//     id="payment-method"
+//     className="h-10 w-full rounded-md border border-input bg-background px-3 py-2 pr-10 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+//   >
+//     <option value="credit-card">Credit card</option>
+//     <option value="debit-card">Debit card</option>
+//     <option value="upi">UPI</option>
+//   </select>
+//   <svg
+//     xmlns="http://www.w3.org/2000/svg"
+//     width="24"
+//     height="24"
+//     viewBox="0 0 24 24"
+//     fill="none"
+//     stroke="currentColor"
+//     strokeWidth="2"
+//     strokeLinecap="round"
+//     strokeLinejoin="round"
+//     className="absolute right-3 top-1/2 transform -translate-y-1/2 h-4 w-4 pointer-events-none text-gray-500"
+//     aria-hidden="true"
+//   >
+//     <path d="m6 9 6 6 6-6"></path>
+//   </svg>
+// </div>
+// </div>
