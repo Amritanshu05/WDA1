@@ -198,11 +198,11 @@ const Second = () => {
         <div className="text-sm flex justify-center pt-2">
           Empower change with your ideas. Drop them here!
         </div>
-        <div className="pb-20 pt-5 flex justify-center">
+        <div className="pb-20 pt-5 flex justify-center ">
           <input
             type="text"
             placeholder="Enter your text..."
-            class="w-1/4 px-4 py-2 rounded-md border border-gray-300 focus:border-blue-500 focus:outline-none"
+            className="w-1/4 px-4 py-2 rounded-lg border border-gray-300 focus:border-blue-500 focus:outline-none"
           />
           <button className="btn btn-error w-28 ">Send</button>
         </div>
