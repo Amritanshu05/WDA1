@@ -20,18 +20,21 @@ const Nav = () => {
   </div>
   </div>
   <div className="navbar-center hidden xl:flex font-serif">
-    <ul className="menu menu-horizontal space-x-10 text-lg">
+    <ul className="menu menu-horizontal space-x-10 ">
       
       <Link href="/">
-      <button className='btn btn-ghost'>Home</button>
+      <button className='btn btn-ghost text-xl'>Home</button>
       </Link>
-      <li>
-        <a>Contact Us</a>
-      </li>
-      <li><a>About Us</a></li>
-      <li><a>Login / Sign-Up</a></li>
-      <li>
-        <details>
+      <Link href='/ContactUs'>
+      <button className='btn btn-ghost text-xl'>Contact us</button>
+      </Link>
+      <Link href='/AboutUs'>
+      <button className='btn btn-ghost text-xl'>About us</button>
+      </Link>
+      <Link href='/LoginPage'>
+      <button className='btn btn-ghost text-xl'>Login</button>
+      </Link>
+        {/* <details>
           <summary>EN</summary>
           <ul className="p-2">
             <li><a>Australia</a></li>
@@ -40,9 +43,12 @@ const Nav = () => {
             <li><a>United States</a></li>
             <li><a> </a></li>
           </ul>
-        </details>
-      </li>
-      <li><a>Call Sales:-1-888-668-88</a></li>
+        </details> */}
+        <div className='pt-3 text-xl font-semibold'>
+        Call Sales:-1-888-668-88
+        </div>
+      
+      {/* <li><a></a></li> */}
     </ul>
   </div>
   <div className="navbar-end">
