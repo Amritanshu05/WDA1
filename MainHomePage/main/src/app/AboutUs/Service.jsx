@@ -1,5 +1,8 @@
 import React from "react";
 import "./Service.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
+
+
 // import img1 from './pic/img2.jpg';
 // import img2 from './pic/img1.jpg';
 // import img3 from './pic/img5.jpg';
@@ -19,7 +22,7 @@ const Service = () => {
             <h1 className="section-title w-screen underline text-3xl pb-4">The Team Behind UNITRENDS</h1>
             <p className="section-subtitle w-screen text-center px-16 text-xl">At Unitrends Merchitects, we're all about blending creativity and technology to craft spaces that make you go, "Wow!" . We're not just suits and blueprints. We're a bunch of architects, designers, and project wizards who eat, sleep, and breathe creativity. We're a fun-loving crew with a serious passion for what we do.`</p>
           </div>
-
+          <div>
           <div className="col-sm-6 col-md-4">
             <div className="team-item ">
               <div className="w-screen h-1/2  flex justify-center">
@@ -143,6 +146,7 @@ const Service = () => {
                 </ul>
               </div>
             </div>
+          </div>
           </div>
         </div>
 

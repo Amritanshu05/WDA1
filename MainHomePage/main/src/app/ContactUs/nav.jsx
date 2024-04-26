@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 const Nav = () => {
   return (
@@ -21,7 +22,9 @@ const Nav = () => {
   <div className="navbar-center hidden xl:flex font-serif">
     <ul className="menu menu-horizontal space-x-10 text-lg">
       
-      <li ><a>Home</a></li>
+      <Link href="/">
+      <button className='btn btn-ghost'>Home</button>
+      </Link>
       <li>
         <a>Contact Us</a>
       </li>
