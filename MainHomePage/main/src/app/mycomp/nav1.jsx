@@ -76,6 +76,11 @@ const Nav2 = () => {
               <button className="btn btn-ghost ">About us</button>
             </Link>
           </div>
+          <div>
+            <Link href="/ContactUs">
+              <button className="btn btn-ghost ">Contact us</button>
+            </Link>
+          </div>
          
           <div className="form-control">
             <input
