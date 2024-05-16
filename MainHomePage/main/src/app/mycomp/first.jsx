@@ -26,7 +26,7 @@ const First = () => {
             <div className="pt-8 ">
               <br />
               <button className="btn btn-error text-white  ">
-                <a href="http://127.0.0.1:5500/index.html">GO SHOPPING</a>
+                <a href="http://127.0.0.1:5500/Cartpage/index.html">GO SHOPPING</a>
               </button>
             </div>
           </div>
