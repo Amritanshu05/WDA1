@@ -6,6 +6,7 @@ html {
 }
 body,
 html {
+  background-color: #fff9ea;
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
@@ -18,6 +19,12 @@ html {
 #third {
   letter-spacing: 1.5rem;
 }
+@media screen and (max-width: 500px) {
+  #first, #second, #third {
+    letter-spacing: 1rem; /* Adjust as needed for smaller screens */
+  }
+}
+
 /* #equi{
   height: 35rem;
 } */
@@ -38,7 +45,7 @@ html {
   text-transform: uppercase;
   font-weight: 600;
 }
-.alumni_description {
+/* .alumni_description {
   margin-bottom: 1rem;
   letter-spacing: 0.2rem;
-}
+} */

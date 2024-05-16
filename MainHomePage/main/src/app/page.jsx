@@ -1,11 +1,7 @@
-import Image from "next/image";
-import Nav from "./mycomp/nav";
 import First from "./mycomp/first";
 import Second from "./mycomp/second";
 import Footer from "./mycomp/footer";
-import Nav2 from "./mycomp/nav1";
-import Link from "next/link";
-
+import Nav2 from "./mycomp/nav2";
 import "./globals.css";
 
 export default function Home() {
@@ -29,6 +25,7 @@ export default function Home() {
   <div>
     <Footer/>
   </div>
+ 
     </div>
   );
 }
