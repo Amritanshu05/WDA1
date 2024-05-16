@@ -5,10 +5,17 @@
     padding: 0;
     box-sizing: border-box;
   }
-  /* body {
-    background-image: url();
-    /* Other CSS styles 
-  } */
+  body {
+    background-image: url(/WDA1/MainHomePage/main/public/bg.jpg);
+  }
+  
+  /* styles.css */
+
+#login-form {
+  background-image: url('/WDA1/MainHomePage/main/src/app/LoginPage/bg.jpg'); /* Adjust the path to your image */
+  background-size: cover; /* Makes the image cover the entire container */
+  background-position: center; 
+}
   
   /* .full-page {
     height: 100%;
