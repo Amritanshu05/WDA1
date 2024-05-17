@@ -361,7 +361,7 @@ const Payment = () => {
             <div className="space-y-2">
               <div className="flex items-center justify-between">
                 <p className="text-base font-medium text-gray-900">Subtotal</p>
-                <p className="text-base font-medium text-gray-900">Rs.1000.00</p>
+                <p className="text-base font-medium text-gray-900">Rs.2300.00</p>
               </div>
               <div className="flex items-center justify-between">
                 <p className="text-base font-medium text-gray-900">Shipping</p>
@@ -379,7 +379,7 @@ const Payment = () => {
             ></div>
             <div className="flex items-center justify-between">
               <p className="text-xl font-bold text-gray-900">Total</p>
-              <p className="text-xl font-bold text-gray-900">Rs1157.92</p>
+              <p className="text-xl font-bold text-gray-900">Rs2457.92</p>
             </div>
           </div>
           <div className="mt-6 flex justify-center">

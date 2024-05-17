@@ -1,5 +1,7 @@
+
 const products = [
   {
+    
     id: 1,
     name: " Equinox Tshirt",
     price: 500,
