@@ -6,9 +6,14 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <div className="flex justify-end">
+      <div className="flex justify-end bg-white gap-2 ">
+        <button className="btn btn-ghost">
+          <a href="http://127.0.0.1:5501/MainHomePage/main/Cartpage/index.html"> Back to Cart</a>
+         
+        
+        </button>
       <Link href="/">
-        <button className="btn btn-outline btn-primary">
+        <button className="btn  btn-ghost">
           
           Back to home
         
