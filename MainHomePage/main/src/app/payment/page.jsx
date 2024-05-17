@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <div className="flex justify-end bg-white gap-2 ">
         <button className="btn btn-ghost">
-          <a href="http://127.0.0.1:5501/MainHomePage/main/Cartpage/index.html"> Back to Cart</a>
+          <a href="http://127.0.0.1:5500/WDA1/MainHomePage/main/Cartpage/index.html"> Back to Cart</a>
          
         
         </button>

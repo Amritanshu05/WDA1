@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-
+222
 const Nav2 = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
@@ -156,7 +156,7 @@ const Nav2 = () => {
               role="button"
               className="btn btn-ghost btn-circle"
             >
-              <Link href="/payment">
+              <Link >
                 <div className="indicator">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

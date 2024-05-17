@@ -384,7 +384,7 @@ const Payment = () => {
           </div>
           <div className="mt-6 flex justify-center">
             <img
-              src="./randomQR.png"
+              src="./image.png"
               alt="QR Code"
               width="200"
               height="200"
