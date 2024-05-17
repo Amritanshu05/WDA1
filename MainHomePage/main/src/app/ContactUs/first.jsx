@@ -58,10 +58,7 @@ const First = () => {
             Welcome to Unitrends! We're delighted to assist you with any
             inquiries, feedback, or concerns you may have regarding our products
             or services. Our dedicated team is here to ensure your Unitrends
-            experience is exceptional. Thank you for choosing Unitrends! Your
-            data protection needs are our priority, and we're committed to
-            providing you with innovative solutions that give you peace of mind.
-            With Unitrends, your business continuity is in safe hands.
+            experience is exceptional. Thank you for choosing Unitrends!
             <div className="text-black text-xl bg-slate-50 flex justify-center pt-12 ">
               {/* Enter your email:- */}
             </div>
@@ -170,43 +167,6 @@ const First = () => {
           <aside>
             <h5>Unitrends Help Centre: Get All Shopping Solutions Here </h5>
 
-            <div className="bg-slate-100">
-              Once you place your order on any online shopping store, the next
-              obvious thing to do is wait for your product to arrive. This wait
-              can be quite anxiety-ridden if you do not get updates about your
-              order or do not receive support post-delivery of your order.
-               Now, you can conveniently shop any time, from
-              anywhere, and anything that you want. These websites are one-stop
-              destinations for all your needs and requirements. These websites provide you
-              convenience, at the same time, a bitter experience can make online
-              shopping a nightmare for many. To ensure that your shopping
-              experience is delightful.
-            </div>
-            <div>
-              <div className="text-base bg-slate-100">
-                24x7 Customer Care Support
-              </div>
-              You can 24x7 Customer Care Support on the Unitrends Help Centre.
-              Any query or issue that you may possibly have while shopping on
-              Unitrends is taken care here. This page is easy to navigate, and
-              you can get support almost immediately.  By clicking on the specific order. 
-              It also has a chat option to ensure that your
-              queries and issues are taken care of.  You can get support any time
-              and get a satisfactory solution.
-            </div>
-            <div className="bg-slate-100">
-              The Unitrends Help Centre is available on the Flipkart site to help
-              every Unitrends customer with any grievance that they may have. You
-              can find solutions regarding the tracking of your order. It will
-              also help edit your delivery date or address and more. All your
-              issues will be addressed at any time of the day or night (24/7
-              service). This way, you can immediately get your grievances
-              addressed. You can also get help regarding returns and refunds and
-              many other issues through the Flipkart Help Centre. In case you're
-              not satisfied with the solution given, you can seek further
-              assistance.
-              
-            </div>
 
             <div className="bg-gray-100">
               Related Pages: Unitrends Track Orders | Unitrends Manage Orders |
