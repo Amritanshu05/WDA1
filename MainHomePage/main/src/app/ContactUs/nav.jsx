@@ -34,6 +34,10 @@ const Nav = () => {
       <Link href='/LoginPage'>
       <button className='btn btn-ghost text-xl'>Login</button>
       </Link>
+      <Link href="/faq">
+      <button className='btn btn-ghost text-xl'>Faq</button>
+
+      </Link>
         {/* <details>
           <summary>EN</summary>
           <ul className="p-2">
