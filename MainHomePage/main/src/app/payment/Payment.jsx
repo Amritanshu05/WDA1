@@ -1,5 +1,6 @@
 import React from "react";
-// import { img1, img2 } from "./assets";
+import Image from "next/image";
+// import { Image1, Image2 } from "./assets";
 
 
 const Payment = () => {
@@ -290,52 +291,60 @@ const Payment = () => {
             <p className="text-base font-medium text-gray-900">
               Accepted payment methods:
             </p>
+            {/* <Image
+  src="./americanexpress.png"
+  alt="QR Code"
+  width={32}
+  height={20}
+  className="h-5 w-auto"
+  style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
+/> */}
             <div className="flex items-center gap-4">
-              <img
-                src="./americanexpress.png"
+              <Image
+                src="/americanexpress.png"
                 alt="QR Code"
-                width="32"
-                height="20"
+                width={32}
+                height={20}
                 className="h-5 w-auto"
                 style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
               />
-              <img
-                src="./discover.png"
+              <Image
+                src="/discover.png"
                 alt="QR Code"
-                width="32"
-                height="20"
+                width={32}
+                height={20}
                 className="h-5 w-auto"
                 style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
               />
-              <img
-                src="./mastercard.png"
+              <Image
+                src="/mastercard.png"
                 alt="Visa"
-                width="32"
-                height="20"
+                width={32}
+                height={20}
                 className="h-5 w-auto"
                 style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
               />
-              <img
-                src="./netbanking.png"
+              <Image
+                src="/netbanking.png"
                 alt="Mastercard"
-                width="32"
-                height="20"
+                width={32}
+                height={20}
                 className="h-5 w-auto"
                 style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
               />
-              <img
-                src="./rupay.png"
+              <Image
+                src="/rupay.png"
                 alt="American Express"
-                width="32"
-                height="20"
+                width={32}
+                height={20}
                 className="h-5 w-auto"
                 style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
               />
-              <img
-                src="./visa.png"
+              <Image
+                src="/visa.png"
                 alt="Discover"
-                width="32"
-                height="20"
+                width={32}
+                height={20}
                 className="h-5 w-auto"
                 style={{ aspectRatio: "32 / 20", objectFit: "cover" }}
               />
@@ -383,13 +392,14 @@ const Payment = () => {
             </div>
           </div>
           <div className="mt-6 flex justify-center">
-            <img
-              src="./image.png"
+            <Image
+              src="/image.png"
               alt="QR Code"
-              width="200"
-              height="200"
+              width={200}
+              height={200}
               className="w-full max-w-[200px] h-auto"
-              style={{ aspectRatio: "200 / 200", objectFit: "cover" }}
+              style={{ aspectRatio: " 200/ 200", objectFit: "cover" }}
+              
             />
           </div>
           <div className="mt-4 text-center">
@@ -410,90 +420,3 @@ export default Payment;
 
 
 
-{/* <div className="grid grid-cols-3 gap-4">
-  <div className="space-y-2">
-    <label
-      className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-      htmlFor="expiration-date"
-    >
-      Expiration date
-    </label>
-    <div className="flex items-center gap-2">
-      <select
-        id="expiration-month"
-        className="h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-      >
-        {Array.from({ length: 12 }, (_, index) => (
-          <option key={index + 1} value={index + 1}>
-            {index + 1}
-          </option>
-        ))}
-      </select>
-      <select
-        id="expiration-year"
-        className="h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-      >
-        {Array.from({ length: 10 }, (_, index) => (
-          <option key={index + 2023} value={index + 2023}>
-            {index + 2023}
-          </option>
-        ))}
-      </select>
-    </div>
-  </div>
-</div> */}
-
-
-{/* <div className="space-y-2">
-  <label
-    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-    htmlFor="payment-method"
-  >
-    Payment method
-  </label>
-  <select
-    id="payment-method"
-    className="h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-  >
-    <option value="credit-card">Credit card</option>
-    <option value="debit-card">Debit card</option>
-    <option value="upi">UPI</option>
-  </select>
-</div> */}
-
-
-
-
-// <div className="space-y-2">
-// <label
-//   className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-//   htmlFor="payment-method"
-// >
-//   Payment method
-// </label>
-// <div className="relative">
-//   <select
-//     id="payment-method"
-//     className="h-10 w-full rounded-md border border-input bg-background px-3 py-2 pr-10 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-//   >
-//     <option value="credit-card">Credit card</option>
-//     <option value="debit-card">Debit card</option>
-//     <option value="upi">UPI</option>
-//   </select>
-//   <svg
-//     xmlns="http://www.w3.org/2000/svg"
-//     width="24"
-//     height="24"
-//     viewBox="0 0 24 24"
-//     fill="none"
-//     stroke="currentColor"
-//     strokeWidth="2"
-//     strokeLinecap="round"
-//     strokeLinejoin="round"
-//     className="absolute right-3 top-1/2 transform -translate-y-1/2 h-4 w-4 pointer-events-none text-gray-500"
-//     aria-hidden="true"
-//   >
-//     <path d="m6 9 6 6 6-6"></path>
-//   </svg>
-// </div>
-// </div>
