@@ -24,7 +24,7 @@ const Second = () => {
               <Image
                 src="/equi_tshirt.png"
                 alt="Equinox Tshirt"
-                width={240} // Set the width of the image
+                width={200} // Set the width of the image
                 height={240} // Set the height of the image
                 className="h-60"
               />
@@ -41,7 +41,7 @@ const Second = () => {
           <div className="card card-compact  h-96 glass">
             <figure>
               <Image src="/equi_cap.png" alt="Equinox Tshirt"
-          width={240} // Set the width of the image
+          width={200} // Set the width of the image
           height={240} // Set the height of the image
           className="h-42" />
             </figure>
@@ -59,7 +59,7 @@ const Second = () => {
               <Image
                 src="/Mug.jpeg"
                 alt="Equinox Tshirt"
-                width={240} // Set the width of the image
+                width={200} // Set the width of the image
                 height={240} // Set the height of the image
                 className="h-60"
               />
@@ -78,7 +78,7 @@ const Second = () => {
               <Image
                 src="/equi_sweatshirt.png"
                 alt="Equinox Tshirt"
-                width={240} // Set the width of the image
+                width={200} // Set the width of the image
                 height={240} // Set the height of the image
                 className="h-60"
               />
@@ -173,7 +173,7 @@ const Second = () => {
               <Image
                 src="/enspire_hoddie_01.png"
                 alt="Equinox Tshirt"
-                width={240} // Set the width of the image
+                width={200} // Set the width of the image
                 height={240} // Set the height of the image
                 className="h-60"
               />
@@ -192,7 +192,7 @@ const Second = () => {
               <Image
                 src="/enspire_tshirt_01.png"
                 alt="Equinox Tshirt"
-                width={240} // Set the width of the image
+                width={200} // Set the width of the image
                 height={240} // Set the height of the image
                 className="h-60"
               />
@@ -211,7 +211,7 @@ const Second = () => {
               <Image
                 src="/enspire_tshirt_02.png"
                 alt="Equinox Tshirt"
-                width={240} // Set the width of the image
+                width={200} // Set the width of the image
                 height={240} // Set the height of the image
                 className="h-60"
               />
@@ -230,7 +230,7 @@ const Second = () => {
               <Image
                 src="/enspire_hoodie_02.png"
                 alt="Equinox Tshirt"
-                width={240} // Set the width of the image
+                width={200} // Set the width of the image
                 height={240} // Set the height of the image
                 className="h-60"
               />
