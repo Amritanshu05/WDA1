@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const Second = () => {
   return (
     <div>
@@ -21,7 +21,13 @@ const Second = () => {
         <div className="w-screen h-auto  bg-amber-50 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-10 mt-5  pr-5 sm:pr-10 lg:pr-20 pl-5  sm:pl-10 lg:pl-20  ">
           <div className="card card-compact    h-96 glass ">
             <figure className="pt-4">
-              <img src="./equi_tshirt.png" alt="car!" className="h-60 " />
+              <Image
+                src="/equi_tshirt.png"
+                alt="Equinox Tshirt"
+                width={240} // Set the width of the image
+                height={240} // Set the height of the image
+                className="h-60"
+              />
             </figure>
             <div className="card-body ">
               <h2 className="card-title">Equinox Tshirt</h2>
@@ -34,7 +40,10 @@ const Second = () => {
 
           <div className="card card-compact  h-96 glass">
             <figure>
-              <img src="./equi_cap.png" alt="car!" className="h-48" />
+              <Image src="/equi_cap.png" alt="Equinox Tshirt"
+          width={240} // Set the width of the image
+          height={240} // Set the height of the image
+          className="h-42" />
             </figure>
             <div className="card-body">
               <h2 className="card-title pt-11   ">Equinox Cap</h2>
@@ -47,7 +56,13 @@ const Second = () => {
 
           <div className="card card-compact  h-96 glass">
             <figure className="pt-12">
-              <img src="./Mug.jpeg" alt="car!" className="h-60" />
+              <Image
+                src="/Mug.jpeg"
+                alt="Equinox Tshirt"
+                width={240} // Set the width of the image
+                height={240} // Set the height of the image
+                className="h-60"
+              />
             </figure>
             <div className="card-body ">
               <h2 className="card-title  ">Equinox Mug</h2>
@@ -60,7 +75,13 @@ const Second = () => {
 
           <div className="card card-compact  h-96 glass">
             <figure>
-              <img src="./equi_sweatshirt.png" alt="car!" className="h-60" />
+              <Image
+                src="/equi_sweatshirt.png"
+                alt="Equinox Tshirt"
+                width={240} // Set the width of the image
+                height={240} // Set the height of the image
+                className="h-60"
+              />
             </figure>
             <div className="card-body ">
               <h2 className="card-title ">Equinox Sweatshirt</h2>
@@ -75,7 +96,7 @@ const Second = () => {
       {/* <div className=" w-screen h-screen  bg-amber-50">
         <div className="card w-screen  shadow-xl image-full">
           <figure>
-            <img
+            <Image
               src="./Alumni.webp"
               alt="Shoes"
               // className="py-12"
@@ -94,7 +115,7 @@ const Second = () => {
       {/* <div className="w-auto h-auto bg-amber-50">
   <div className="card">
     <figure >
-      <img
+      <Image
         src="./Alumni.webp"
         alt=""
         className="w-screen h-auto py-12"
@@ -120,14 +141,9 @@ const Second = () => {
           <p className="text-2xl pt-3 font-semibold tracking-widest  ">
             SPECIAL OFFER FOR OUR ALUMNI
             <a href="#equi" className=" pl-6 sm:pl-4">
-            <button className="btn btn-primary  ">
-            ORDER NOW
-            </button>
-            
-          </a>
+              <button className="btn btn-primary  ">ORDER NOW</button>
+            </a>
           </p>
-
-          
         </div>
       </div>
 
@@ -154,7 +170,13 @@ const Second = () => {
         <div className="w-screen h-auto  bg-amber-50 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-10 mt-5  pr-5 sm:pr-10 lg:pr-20 pl-5  sm:pl-10 lg:pl-20 ">
           <div className="card card-compact    h-96 glass ">
             <figure>
-              <img src="./enspire_hoddie_01.png" alt="car!" className="h-60" />
+              <Image
+                src="/enspire_hoddie_01.png"
+                alt="Equinox Tshirt"
+                width={240} // Set the width of the image
+                height={240} // Set the height of the image
+                className="h-60"
+              />
             </figure>
             <div className="card-body ">
               <h2 className="card-title ">Enspire Hoddie</h2>
@@ -167,7 +189,13 @@ const Second = () => {
 
           <div className="card card-compact    h-96 glass ">
             <figure>
-              <img src="./enspire_tshirt_01.png" alt="car!" className="h-60" />
+              <Image
+                src="/enspire_tshirt_01.png"
+                alt="Equinox Tshirt"
+                width={240} // Set the width of the image
+                height={240} // Set the height of the image
+                className="h-60"
+              />
             </figure>
             <div className="card-body">
               <h2 className="card-title  "> Enspire T-shirt</h2>
@@ -180,7 +208,13 @@ const Second = () => {
 
           <div className="card card-compact    h-96 glass ">
             <figure>
-              <img src="./enspire_tshirt_02.png" alt="car!" className="h-60" />
+              <Image
+                src="/enspire_tshirt_02.png"
+                alt="Equinox Tshirt"
+                width={240} // Set the width of the image
+                height={240} // Set the height of the image
+                className="h-60"
+              />
             </figure>
             <div className="card-body">
               <h2 className="card-title  ">Enspire T-shirt</h2>
@@ -193,7 +227,13 @@ const Second = () => {
 
           <div className="card card-compact    h-96 glass ">
             <figure>
-              <img src="./enspire_hoodie_02.png" alt="car!" className="h-60" />
+              <Image
+                src="/enspire_hoodie_02.png"
+                alt="Equinox Tshirt"
+                width={240} // Set the width of the image
+                height={240} // Set the height of the image
+                className="h-60"
+              />
             </figure>
             <div className="card-body ">
               <h2 className="card-title ">Enspire Hoddie</h2>
@@ -223,27 +263,49 @@ const Second = () => {
             className="w-52 sm:w-1/3 md:1/4 lg:w-1/4 xl:w-1/5 px-4 py-2 rounded-lg border border-gray-300 focus:border-blue-500 focus:outline-none"
           />
           <div className="pl-4">
-          <button className="btn btn-error w-28  ">Send</button>
-
+            <button className="btn btn-error w-28  ">Send</button>
           </div>
         </div>
       </div>
 
       <div className="w-screen h-auto grid grid-cols-2 sm:grid-cols-4 bg-amber-50 pb-20">
         <div className="w-1/10 h-auto flex justify-center items-center pb-5">
-          <img src="./IIITL_logo.png" alt="" className="w-24" />
+          <Image
+            src="/IIITL_logo.png"
+            alt=""
+            width={96}
+            height={96}
+            className="w-24"
+          />
         </div>
         <div className="w-1/10 h-auto flex justify-center items-center pb-5">
-          <img src="./equinox_logo.png" alt="" className="w-24" />
+          <Image
+            src="/equinox_logo.png"
+            alt=""
+            width={96}
+            height={96}
+            className="w-24"
+          />
         </div>
         <div className="w-1/10 h-auto flex justify-center items-center pb-5">
-          <img src="./Logo-Cultural-Club.jpeg.webp" alt="" className="w-24" />
+          <Image
+            src="/Logo-Cultural-Club.jpeg.webp"
+            alt=""
+            width={96}
+            height={96}
+            className="w-24"
+          />
         </div>
         <div className="w-1/10 h-auto flex justify-center items-center pb-5">
-          <img src="./Enspire2.webp" alt="" className="w-24" />
+          <Image
+            src="/Enspire2.webp"
+            alt=""
+            width={96}
+            height={96}
+            className="w-24"
+          />
         </div>
       </div>
-    
     </div>
   );
 };

@@ -21,20 +21,34 @@ const First = () => {
               TO
             </div>
             <br />
-            <div id="third" className="text-3xl sm:text-5xl  amrit:text-7xl font-bold">
+            <div
+              id="third"
+              className="text-3xl sm:text-5xl  amrit:text-7xl font-bold"
+            >
               UNITRENDS
             </div>
             <div className="pt-8 ">
               <br />
               <button className="btn btn-error text-white  ">
-                <a href="http://127.0.0.1:5501/MainHomePage/main/Cartpage/">GO SHOPPING</a>
+                <a href="http://127.0.0.1:5501/MainHomePage/main/Cartpage/">
+                  GO SHOPPING
+                </a>
               </button>
             </div>
           </div>
         </div>
 
-        <div className=" col-span-1 piyush:col-span-2 bg-amber-50 flex justify-center items-center">
-          <img src="./LOGO1.png" alt="" className="w-auto tanish:w-2/3 sm:w-2/3 md:w-1/2 piyush:w-11/12 amrit:w-auto pb-12" />
+        {/* <div className=" col-span-1 piyush:col-span-2 bg-amber-50 flex justify-center items-center">
+          <image src="./LOGO1.png" alt="" className="w-auto tanish:w-2/3 sm:w-2/3 md:w-1/2 piyush:w-11/12 amrit:w-auto pb-12" />
+        </div> */}
+        <div className="col-span-1 piyush:col-span-2 bg-amber-50 flex justify-center items-center">
+          <Image
+            src="/LOGO1.png"
+            alt=""
+            width={500} // specify the width
+            height={500} // specify the height
+            className="w-auto tanish:w-2/3 sm:w-2/3 md:w-1/2 piyush:w-11/12 amrit:w-auto pb-12"
+          />
         </div>
       </div>
     </div>
