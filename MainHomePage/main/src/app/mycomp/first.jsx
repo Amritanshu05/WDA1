@@ -17,7 +17,7 @@ const First = () => {
               id="second"
               className="text-xl amrit:text-3xl  md:scroll-pb-7 amrit:pb-10 font-semibold leading-loose"
             >
-              TOy
+              TO
             </div>
             <br />
             <div id="third" className="text-3xl sm:text-5xl  amrit:text-7xl font-bold">
