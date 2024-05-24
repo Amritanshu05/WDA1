@@ -17,7 +17,7 @@ const First = () => {
               id="second"
               className="text-xl amrit:text-3xl  md:scroll-pb-7 amrit:pb-10 font-semibold leading-loose"
             >
-              TO
+              TOy
             </div>
             <br />
             <div id="third" className="text-3xl sm:text-5xl  amrit:text-7xl font-bold">
@@ -26,7 +26,7 @@ const First = () => {
             <div className="pt-8 ">
               <br />
               <button className="btn btn-error text-white  ">
-                <a href="http://127.0.0.1:5500/WDA1/MainHomePage/main/Cartpage/index.html">GO SHOPPING</a>
+                <a href="http://127.0.0.1:5501/MainHomePage/main/Cartpage/">GO SHOPPING</a>
               </button>
             </div>
           </div>
